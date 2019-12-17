@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".HomeScreen">
+
+    <com.gigamole.navigationtabstrip.NavigationTabStrip
+        android:id="@+id/nts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:nts_active_color="#104F55"
+        app:nts_animation_duration="200"
+        app:nts_color="#104F55"
+        app:nts_corners_radius="5dp"
+        app:nts_factor="5"
+        app:nts_gravity="bottom"
+        app:nts_inactive_color="#70C8BE"
+        app:nts_size="15sp"
+        app:nts_titles="@array/titles"
+        app:nts_type="point"
+        app:nts_typeface="fonts/typeface.otf"
+        app:nts_weight="5dp"/>
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/fragment"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/nts">-->
+    <!--</FrameLayout>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nts" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Money Circle</string>
+    <string-array name="titles">
+        <item>Home</item>
+        <item>Circles</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="spin_pass">
+        <item>TYPE OF CIRCLE</item>
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+    <string-array name="spin_member">
+        <item>SELECT MAXIMUM NUMBER OF MEMBERS</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string name="facebook_app_id">615945518860530</string>
+    <string name="fb_login_protocol_scheme">fb615945518860530</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
